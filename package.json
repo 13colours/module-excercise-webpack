@@ -1,6 +1,6 @@
 {
   "name": "module-excercise-webpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "nodejs module using webpack",
   "main": "lib/index.bundle.js",
   "scripts": {
