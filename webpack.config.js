@@ -4,20 +4,19 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: 'index.js',
-    library: {
-      name: 'moduleExcerciseWebpack',
-      type: 'umd',
-    },
+    filename: 'index.bundle.js',
+    library: 'moduleExcerciseWebpack',
+    libraryTarget: 'umd',
     clean: true,
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
     ],
   },
+  mode: 'development',
 }
