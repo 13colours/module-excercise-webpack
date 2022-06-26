@@ -6,7 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, 'lib'),
     filename: 'index.js',
     library: {
-      name: 'module-exercise-webpack',
+      name: 'module-excercise-webpack',
       type: 'umd',
     },
     clean: true,

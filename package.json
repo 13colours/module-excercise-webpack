@@ -8,8 +8,11 @@
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Prabhat",
+  "keywords": [
+    "module",
+    "webpack"
+  ],
+  "author": "Prabhat <tasker.prabhat@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.5",

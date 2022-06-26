@@ -1,3 +1,3 @@
 # NodeJS module with Webpack and Babel
 
-This is an excercise to build nodejs module using webpack and babel
+This is an exercise to build nodejs module using webpack and babel
