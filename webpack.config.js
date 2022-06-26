@@ -7,6 +7,7 @@ module.exports = {
     filename: 'index.bundle.js',
     library: 'moduleExcerciseWebpack',
     libraryTarget: 'umd',
+    globalObject: 'this',
     clean: true,
   },
   module: {
